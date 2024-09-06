@@ -1,0 +1,22 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+openvino==2024.3.0
+optimum-intel==1.18.3
+nncf==2.11.0
+openvino-genai==2024.3.0
+
+onnx==1.16.2
+onnxruntime==1.17.3
+torch==2.3.1
+torchvision
+
+transformers==4.43.4
+librosa==0.10.2
+
+gradio==4.37.2
+modelscope
+
+# jupyter
+jupyterlab
+ipywidgets
+ipykernel>=5.0
+ipython>=7.16.3
