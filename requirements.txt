@@ -1,5 +1,4 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-openvino-nightly==2024.5.0.dev20240905
 optimum-intel==1.18.3
 nncf==2.11.0
 openvino-genai==2024.3.0
@@ -9,6 +8,7 @@ torchvision
 
 transformers==4.43.4
 librosa==0.10.2
+onnx==1.16.1
 
 gradio
 modelscope
