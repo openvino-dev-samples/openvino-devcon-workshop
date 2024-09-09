@@ -35,5 +35,5 @@ Windows 11
 | Labs    | Introduce | Go |
 | -------- | ------- |  ------- |
 | 🚀 Lab-1-GenAI API  | Learn how to deploy LLM with GenAI API    |  [Go](./lab1-genai_api.ipynb)    |
-| 🚀 Lab-2-Multimadal  | Learn how to use multimadal model to analyze image in your AI PC     |  [Go](./lab2-multimadal.ipynb)    |
+| 🚀 Lab-2-Multimodal  | Learn how to use multimodal model to analyze image in your AI PC     |  [Go](./lab2-multimodal.ipynb)    |
 | 🚀 Lab-3-Custom AI Assistant  | Learn how to create an AI Assistant on your AI PC    |  [Go](./lab3-custom_ai_assistant.ipynb)    |
