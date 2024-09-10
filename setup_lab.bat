@@ -1,10 +1,10 @@
 @echo off
 
 echo Creating Python environment...
-call "C:\Users\%USERNAME%\miniconda3\Scripts\conda" create -n openvino_env python=3.10 -y
+call "C:\Users\%USERNAME%\miniconda3\Scripts\conda" create -n openvino_devcon python=3.10 -y
 
 echo Activating environment...
-call "C:\Users\%USERNAME%\miniconda3\Scripts\activate.bat" openvino_env
+call "C:\Users\%USERNAME%\miniconda3\Scripts\activate.bat" openvino_devcon
 
 echo Installing requirements...
 python -m pip install --upgrade pip
