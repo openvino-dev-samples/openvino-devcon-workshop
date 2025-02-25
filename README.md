@@ -1,6 +1,6 @@
 # OpenVINO-devcon-workshop
 
-This is a OpenVINO Workshop based on Intel AI PC. You can learn how to create a streamlined, voice-activated interface that developers can easily integrate and deploy。
+This is a OpenVINO Workshop based on Intel AI PC. You can learn how to create deploy your text-generation, multimodal and image generation task with [OpenVINO GenAI API](https://github.com/openvinotoolkit/openvino.genai)。
 
 ## System 
 
@@ -32,8 +32,8 @@ Windows 11
 
 ## 🧪 Labs
 
-| Labs    | Introduce | Go |
-| -------- | ------- |  ------- |
-| 🚀 Lab-1-GenAI API  | Learn how to deploy LLM with GenAI API    |  [Go](./lab1-genai_api.ipynb)    |
-| 🚀 Lab-2-Multimodal  | Learn how to use multimodal model to analyze image in your AI PC     |  [Go](./lab2-multimodal.ipynb)    |
-| 🚀 Lab-3-Custom AI Assistant  | Learn how to create an AI Assistant on your AI PC    |  [Go](./lab3-custom_ai_assistant.ipynb)    |
+| Labs                             | Introduce                                                        | Go                                      |
+| -------------------------------- | ---------------------------------------------------------------- | --------------------------------------- |
+| 🚀 Lab-1-test-generation          | Learn how to deploy LLM with GenAI API                           | [Go](./lab1-text-generation)            |
+| 🚀 Lab-2-visual-multimodal        | Learn how to use multimodal model to analyze image in your AI PC | [Go](./lab2-visual-multimodal)          |
+| 🚀 Lab-3-multilora-image-geration | Learn how apply LoRA adapters to GenAI Pipline                   | [Go](./lab3-multilora-image-generation) |
