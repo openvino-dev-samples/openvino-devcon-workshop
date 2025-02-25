@@ -2,9 +2,9 @@
 
 This is a OpenVINO Workshop based on Intel AI PC. You can learn how to create deploy your text-generation, multimodal and image generation task with [OpenVINO GenAI API](https://github.com/openvinotoolkit/openvino.genai).
 
-## System 
+## 💻 System 
 
-Windows 11
+* Windows 11
 
 ## 📖 Installation
 
