@@ -1,16 +1,19 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-optimum-intel==1.18.3
-nncf==2.11.0
-
-torch==2.3.1
-torchvision
-
-transformers==4.43.4
-librosa==0.10.2
-onnx==1.16.1
-
-gradio
+nncf==2.14.1
+torch>=2.1
+datasets
+accelerate
+gradio>=4.19
+huggingface-hub>=0.26.5
+einops
+tiktoken
+git+https://github.com/huggingface/optimum-intel.git
+git+https://github.com/deepseek-ai/Janus
+numpy<2.0.0
+requests
 modelscope
+diffusers
+peft
 
 # jupyter
 jupyterlab
