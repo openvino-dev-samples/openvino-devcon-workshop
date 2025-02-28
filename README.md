@@ -34,6 +34,6 @@ This is a OpenVINO Workshop based on Intel AI PC. You can learn how to create de
 
 | Labs                             | Introduce                                                        | Go                                      |
 | -------------------------------- | ---------------------------------------------------------------- | --------------------------------------- |
-| 🚀 Lab-1-test-generation          | Learn how to deploy LLM with GenAI API                           | [Go](./lab1-text-generation)            |
+| 🚀 Lab-1-text-generation          | Learn how to deploy LLM with GenAI API                           | [Go](./lab1-text-generation)            |
 | 🚀 Lab-2-visual-multimodal        | Learn how to use multimodal model to analyze image in your AI PC | [Go](./lab2-visual-multimodal)          |
 | 🚀 Lab-3-multilora-image-geration | Learn how apply LoRA adapters to GenAI Pipline                   | [Go](./lab3-multilora-image-generation) |
