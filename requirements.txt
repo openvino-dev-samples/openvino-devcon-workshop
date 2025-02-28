@@ -12,6 +12,7 @@ numpy<2.0.0
 requests
 modelscope
 diffusers
+torchvision
 peft
 
 # jupyter
