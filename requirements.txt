@@ -8,7 +8,6 @@ huggingface-hub>=0.26.5
 einops
 tiktoken
 git+https://github.com/huggingface/optimum-intel.git
-git+https://github.com/deepseek-ai/Janus
 numpy<2.0.0
 requests
 modelscope
