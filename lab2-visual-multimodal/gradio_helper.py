@@ -75,7 +75,7 @@ def make_demo(model):
         if not history:
             model.start_chat()
         generation_config = ov_genai.GenerationConfig()
-        generation_config.max_new_tokens = 128
+        generation_config.max_new_tokens = 512
         files = message["files"] if isinstance(message, dict) else message.files
         message_text = message["text"] if isinstance(message, dict) else message.text
 
