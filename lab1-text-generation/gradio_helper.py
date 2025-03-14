@@ -307,7 +307,7 @@ def make_demo(pipe, model_configuration, model_id, model_language, disable_advan
                 with gr.Row():
                     submit = gr.Button("Submit")
                     clear = gr.Button("Clear")
-        with gr.Row(visible=not disable_advanced):
+        with gr.Row():
             with gr.Accordion("Advanced Options:", open=False):
                 with gr.Row():
                     with gr.Column():
@@ -361,9 +361,9 @@ def make_demo(pipe, model_configuration, model_id, model_language, disable_advan
                         with gr.Row():
                             max_tokens = gr.Slider(
                                 label="Max new tokens",
-                                value=256,
+                                value=1024,
                                 minimum=128,
-                                maximum=1024,
+                                maximum=2048,
                                 step=32,
                                 interactive=True,
                                 info=("Maximum new tokens added to answer. Higher value can work for long response, but require more time to complete"),
